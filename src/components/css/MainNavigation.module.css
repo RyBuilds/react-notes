@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 32px; */
+  height: 96px;
+  font-family: inherit;
+  max-width: 1200px;
+  margin: 32px auto;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  font-size: 22px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+
+.header li {
+  margin: 16px;
+  padding: 8px 16px;
+}
+
+.header li:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
